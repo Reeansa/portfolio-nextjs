@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pattern {
+  background-attachment: fixed;
+  background-image: url('../../public/assets/images/pattern/topography.svg');
+}
+
+.element-item {
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+}
